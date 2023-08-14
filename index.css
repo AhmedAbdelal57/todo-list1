@@ -13,7 +13,7 @@ body
 }
 .section
 {
-    width: 400px;
+    width: 500px;
     height: auto;
     min-height: 300px;
     padding-top: 20px;
@@ -72,6 +72,17 @@ body
 {
     width: 200;
 }
+#btnupd
+{
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: cadetblue;
+    font-weight: bold;
+    margin-right: 10px;
+    float: right;
+}
 #btndel
 {
     width: 80px;
@@ -80,4 +91,5 @@ body
     border: none;
     background-color: cadetblue;
     font-weight: bold;
+    float: right;
 }
