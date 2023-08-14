@@ -60,7 +60,7 @@ function addtodo (todotext,todoid)
     btndel.textContent = "delet"
     btndel.id = "btndel";
     taskview.appendChild(btndel);
-    task.textContent = todotext +" " +todoid
+    task.textContent = todotext 
     btndel.addEventListener("click",function delet(id) {
         id = todoid
         console.log("ahmed")
